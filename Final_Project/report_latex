@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+	
+	\title{Identifying Disasters Using Tweets: A Machine Learning Approach}
+	\author{[Your Name]}
+	\date{[Date]}
+	
+	\maketitle
+	
+	\section{Introduction}
+	
+	
+	The final project will be average of your and ta marks,
+	Do the models have to be from the topics taught in the class. 
+	If they are , then do we hae to use the libraries we created  or we could use standatd libraries,
+	\subsection{Background}
+	
+	TOday's generation uses electonic media a lot. The rise of online presence has increased a lot. Out of the many social media applications, Twitter is used by many people to tweet. A tweet ,although started as a short message service and thus was restricted to 140 text characters, has now character limit of 280 and an individual can attach picture, video to the text. This has 
+	
+	
+	
+	
+	In the era of digital communication, social media platforms, particularly Twitter, have emerged as critical channels for disseminating and receiving real-time information during emergencies and disasters \citep{imran2015processing}. The instantaneous nature of Twitter allows individuals to report emergencies as they observe them, making it a valuable resource for disaster response and management. However, the challenge lies in accurately identifying tweets that genuinely report a disaster from those that do not. The ambiguity in language usage, such as metaphorical expressions, poses a significant challenge in distinguishing actual disaster reports from non-disaster-related content.
+	
+	\subsection{Motivation and Challenge}
+	The motivation for this research stems from the increasing reliance of disaster relief organizations and news agencies on Twitter for timely information during emergencies \citep{castillo2016big}. The ability to quickly and accurately identify disaster-related tweets can significantly enhance the response efforts and resource allocation during such critical times. However, the challenge lies in the nuanced nature of human language, where words may carry different meanings based on context, making it difficult for machine learning models to discern the intent accurately \citep{olteanu2014crisislex}.
+	
+	\subsection{Dataset}
+	The dataset for this study comprises 10,000 hand-classified tweets, providing a substantial corpus for training and testing machine learning models. The dataset presents a balanced mix of disaster and non-disaster tweets, offering a comprehensive view of the varied language used in different contexts. However, the dataset's challenge includes handling imbalanced classes, noise, and the inherent ambiguity in natural language \citep{alam2018crisismmd}.
+	
+	\subsection{State-of-the-Art}
+	Recent studies using similar datasets have demonstrated significant advancements in classifying disaster-related tweets. The state-of-the-art performance has been achieved through sophisticated natural language processing (NLP) techniques and machine learning models, including deep learning approaches like Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) \citep{kersten2019robust}. These models have shown promising results in terms of accuracy and efficiency in classifying tweets in real-time scenarios.
+	
+	\bibliographystyle{plain}
+	\bibliography{references}
+	
+\end{document}
